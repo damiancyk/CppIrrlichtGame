@@ -1,0 +1,156 @@
+\hypertarget{class_effect}{
+\section{Effect Class Reference}
+\label{class_effect}\index{Effect@{Effect}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bfseries Test}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_effect_ac86f3543fc587821d73c6c7c2ab1004e}{Effect} (IrrlichtDevice $\ast$device)
+\item 
+\hyperlink{class_effect_ac26c0a394247e14c9081f875522b5b66}{$\sim$Effect} ()
+\item 
+void \hyperlink{class_effect_a7145e981ce52d1c0caa8431e6127dd0b}{loadTextures} (ISceneManager $\ast$smgr)
+\item 
+void \hyperlink{class_effect_a3e8b0debd6152954a2292bc163c801de}{loadEffects} (\hyperlink{struct_settings}{Settings} $\ast$sSet, ELevels level, IrrlichtDevice $\ast$device, IVideoDriver $\ast$driver, ISceneManager $\ast$smgr, ICameraSceneNode $\ast$camera, IAnimatedMeshSceneNode $\ast$node)
+\item 
+void \hyperlink{class_effect_a7e891cfd00f2b84413f07b27b733cca7}{createBlood} (ISceneManager $\ast$smgr, vector3df position, s32 sizeX, s32 sizeY, s32 timeDel, s32 timeCh)
+\item 
+void \hyperlink{class_effect_ae7902cfffa5177c32688e57b314dc933}{createExplosion} (ISceneManager $\ast$smgr, vector3df position, s32 sizeX, s32 sizeY, s32 timeDel, s32 timeCh)
+\item 
+void \hyperlink{class_effect_a6843e6c87adeedd53ab7b16f87583169}{shaderToon} (IVideoDriver $\ast$driver)
+\item 
+void \hyperlink{class_effect_ae3df4e1067f5ce70ab7faa70314abbc8}{updateEffects} (\hyperlink{struct_settings}{Settings} $\ast$sSet, ELevels level, IVideoDriver $\ast$driver, ISceneManager $\ast$smgr, ICameraSceneNode $\ast$camera)
+\item 
+void \hyperlink{class_effect_a90a620faa6c94182f28006f40a110ab5}{performanceReport} (ELevels level, \hyperlink{struct_settings}{Settings} $\ast$sSet, IrrlichtDevice $\ast$device, IVideoDriver $\ast$driver, IGUIEnvironment $\ast$gui, f32 frameDeltaTime)
+\item 
+void \hyperlink{class_effect_aea40ea8492461bdfbce75a4375dae68e}{performanceTest} (IVideoDriver $\ast$driver)
+\item 
+void \hyperlink{class_effect_a47bc7316ae643fa6daa5d196327ec3c1}{startNewPerformanceTest} (IGUIEnvironment $\ast$gui)
+\item 
+void \hyperlink{class_effect_afcda3f5ed73f16f0697b0467393b21eb}{createCompass} (IVideoDriver $\ast$driver, IGUIEnvironment $\ast$gui, \hyperlink{struct_settings}{Settings} $\ast$sSet)
+\item 
+void \hyperlink{class_effect_a1c3d763f5bc0790784ba162c3942957d}{updateCompass} (IrrlichtDevice $\ast$device, ISceneManager $\ast$smgr, ISceneNode $\ast$terrain)
+\item 
+void \hyperlink{class_effect_a9074339b40d0ed9a652317d72e271cb9}{addRenderTargetToTexture} (IVideoDriver $\ast$driver, ISceneManager $\ast$smgr, IGUIEnvironment $\ast$gui)
+\item 
+void \hyperlink{class_effect_a0704d97e705b722eec5fd93244ae6bcd}{createAnaglyph} (ICameraSceneNode $\ast$camera, IVideoDriver $\ast$driver, ISceneManager $\ast$smgr)
+\item 
+void \hyperlink{class_effect_aed73faf10c02bbfeb0e2d5d6f664790e}{createSnow} (ISceneManager $\ast$smgr, IVideoDriver $\ast$driver)
+\item 
+void \hyperlink{class_effect_a19342fd47bfcfa672249faee1f2ed646}{changeFog} (ISceneManager $\ast$smgr, bool change)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_effect_a97bca2df55a7bed5e0045d7442fe1601}{isTesting}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_effect_ac86f3543fc587821d73c6c7c2ab1004e}{
+\index{Effect@{Effect}!Effect@{Effect}}
+\index{Effect@{Effect}!Effect@{Effect}}
+\subsubsection[{Effect}]{\setlength{\rightskip}{0pt plus 5cm}Effect::Effect (IrrlichtDevice $\ast$ {\em device})}}
+\label{class_effect_ac86f3543fc587821d73c6c7c2ab1004e}
+kontruktor klasy effect \hypertarget{class_effect_ac26c0a394247e14c9081f875522b5b66}{
+\index{Effect@{Effect}!$\sim$Effect@{$\sim$Effect}}
+\index{$\sim$Effect@{$\sim$Effect}!Effect@{Effect}}
+\subsubsection[{$\sim$Effect}]{\setlength{\rightskip}{0pt plus 5cm}Effect::$\sim$Effect ()}}
+\label{class_effect_ac26c0a394247e14c9081f875522b5b66}
+destruktor klasy effect 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_effect_a9074339b40d0ed9a652317d72e271cb9}{
+\index{Effect@{Effect}!addRenderTargetToTexture@{addRenderTargetToTexture}}
+\index{addRenderTargetToTexture@{addRenderTargetToTexture}!Effect@{Effect}}
+\subsubsection[{addRenderTargetToTexture}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::addRenderTargetToTexture (IVideoDriver $\ast$ {\em driver}, \/  ISceneManager $\ast$ {\em smgr}, \/  IGUIEnvironment $\ast$ {\em gui})}}
+\label{class_effect_a9074339b40d0ed9a652317d72e271cb9}
+prezentacja siatki obiektu na szescianie \hypertarget{class_effect_a19342fd47bfcfa672249faee1f2ed646}{
+\index{Effect@{Effect}!changeFog@{changeFog}}
+\index{changeFog@{changeFog}!Effect@{Effect}}
+\subsubsection[{changeFog}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::changeFog (ISceneManager $\ast$ {\em smgr}, \/  bool {\em change})}}
+\label{class_effect_a19342fd47bfcfa672249faee1f2ed646}
+stworz efekt mgly \hypertarget{class_effect_a0704d97e705b722eec5fd93244ae6bcd}{
+\index{Effect@{Effect}!createAnaglyph@{createAnaglyph}}
+\index{createAnaglyph@{createAnaglyph}!Effect@{Effect}}
+\subsubsection[{createAnaglyph}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::createAnaglyph (ICameraSceneNode $\ast$ {\em camera}, \/  IVideoDriver $\ast$ {\em driver}, \/  ISceneManager $\ast$ {\em smgr})}}
+\label{class_effect_a0704d97e705b722eec5fd93244ae6bcd}
+stworz efekt 3D \hypertarget{class_effect_a7e891cfd00f2b84413f07b27b733cca7}{
+\index{Effect@{Effect}!createBlood@{createBlood}}
+\index{createBlood@{createBlood}!Effect@{Effect}}
+\subsubsection[{createBlood}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::createBlood (ISceneManager $\ast$ {\em smgr}, \/  vector3df {\em position}, \/  s32 {\em sizeX}, \/  s32 {\em sizeY}, \/  s32 {\em timeDel}, \/  s32 {\em timeCh})}}
+\label{class_effect_a7e891cfd00f2b84413f07b27b733cca7}
+zaladuj efekt krwi do menedzera scen \hypertarget{class_effect_afcda3f5ed73f16f0697b0467393b21eb}{
+\index{Effect@{Effect}!createCompass@{createCompass}}
+\index{createCompass@{createCompass}!Effect@{Effect}}
+\subsubsection[{createCompass}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::createCompass (IVideoDriver $\ast$ {\em driver}, \/  IGUIEnvironment $\ast$ {\em gui}, \/  {\bf Settings} $\ast$ {\em sSet})}}
+\label{class_effect_afcda3f5ed73f16f0697b0467393b21eb}
+stworz kompas (niedostepny w pierwszej scenie \hypertarget{class_effect_ae7902cfffa5177c32688e57b314dc933}{
+\index{Effect@{Effect}!createExplosion@{createExplosion}}
+\index{createExplosion@{createExplosion}!Effect@{Effect}}
+\subsubsection[{createExplosion}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::createExplosion (ISceneManager $\ast$ {\em smgr}, \/  vector3df {\em position}, \/  s32 {\em sizeX}, \/  s32 {\em sizeY}, \/  s32 {\em timeDel}, \/  s32 {\em timeCh})}}
+\label{class_effect_ae7902cfffa5177c32688e57b314dc933}
+zaladuj efekt eksplozji do menedzera scen \hypertarget{class_effect_aed73faf10c02bbfeb0e2d5d6f664790e}{
+\index{Effect@{Effect}!createSnow@{createSnow}}
+\index{createSnow@{createSnow}!Effect@{Effect}}
+\subsubsection[{createSnow}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::createSnow (ISceneManager $\ast$ {\em smgr}, \/  IVideoDriver $\ast$ {\em driver})}}
+\label{class_effect_aed73faf10c02bbfeb0e2d5d6f664790e}
+stworz efekt sniegu \hypertarget{class_effect_a3e8b0debd6152954a2292bc163c801de}{
+\index{Effect@{Effect}!loadEffects@{loadEffects}}
+\index{loadEffects@{loadEffects}!Effect@{Effect}}
+\subsubsection[{loadEffects}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::loadEffects ({\bf Settings} $\ast$ {\em sSet}, \/  ELevels {\em level}, \/  IrrlichtDevice $\ast$ {\em device}, \/  IVideoDriver $\ast$ {\em driver}, \/  ISceneManager $\ast$ {\em smgr}, \/  ICameraSceneNode $\ast$ {\em camera}, \/  IAnimatedMeshSceneNode $\ast$ {\em node})}}
+\label{class_effect_a3e8b0debd6152954a2292bc163c801de}
+zaladowanie efektow do poszczegolnych scen \hypertarget{class_effect_a7145e981ce52d1c0caa8431e6127dd0b}{
+\index{Effect@{Effect}!loadTextures@{loadTextures}}
+\index{loadTextures@{loadTextures}!Effect@{Effect}}
+\subsubsection[{loadTextures}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::loadTextures (ISceneManager $\ast$ {\em smgr})}}
+\label{class_effect_a7145e981ce52d1c0caa8431e6127dd0b}
+zaladowanie tekstur \hypertarget{class_effect_a90a620faa6c94182f28006f40a110ab5}{
+\index{Effect@{Effect}!performanceReport@{performanceReport}}
+\index{performanceReport@{performanceReport}!Effect@{Effect}}
+\subsubsection[{performanceReport}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::performanceReport (ELevels {\em level}, \/  {\bf Settings} $\ast$ {\em sSet}, \/  IrrlichtDevice $\ast$ {\em device}, \/  IVideoDriver $\ast$ {\em driver}, \/  IGUIEnvironment $\ast$ {\em gui}, \/  f32 {\em frameDeltaTime})}}
+\label{class_effect_a90a620faa6c94182f28006f40a110ab5}
+stworz raport wydajnosci \hypertarget{class_effect_aea40ea8492461bdfbce75a4375dae68e}{
+\index{Effect@{Effect}!performanceTest@{performanceTest}}
+\index{performanceTest@{performanceTest}!Effect@{Effect}}
+\subsubsection[{performanceTest}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::performanceTest (IVideoDriver $\ast$ {\em driver})}}
+\label{class_effect_aea40ea8492461bdfbce75a4375dae68e}
+test wydajnosci oparty na wykonywaniu tylko jednego efektu \hypertarget{class_effect_a6843e6c87adeedd53ab7b16f87583169}{
+\index{Effect@{Effect}!shaderToon@{shaderToon}}
+\index{shaderToon@{shaderToon}!Effect@{Effect}}
+\subsubsection[{shaderToon}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::shaderToon (IVideoDriver $\ast$ {\em driver})}}
+\label{class_effect_a6843e6c87adeedd53ab7b16f87583169}
+efekt shadera toon \hypertarget{class_effect_a47bc7316ae643fa6daa5d196327ec3c1}{
+\index{Effect@{Effect}!startNewPerformanceTest@{startNewPerformanceTest}}
+\index{startNewPerformanceTest@{startNewPerformanceTest}!Effect@{Effect}}
+\subsubsection[{startNewPerformanceTest}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::startNewPerformanceTest (IGUIEnvironment $\ast$ {\em gui})}}
+\label{class_effect_a47bc7316ae643fa6daa5d196327ec3c1}
+rozpocznij test wydajnosci pojedynczego efektu \hypertarget{class_effect_a1c3d763f5bc0790784ba162c3942957d}{
+\index{Effect@{Effect}!updateCompass@{updateCompass}}
+\index{updateCompass@{updateCompass}!Effect@{Effect}}
+\subsubsection[{updateCompass}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::updateCompass (IrrlichtDevice $\ast$ {\em device}, \/  ISceneManager $\ast$ {\em smgr}, \/  ISceneNode $\ast$ {\em terrain})}}
+\label{class_effect_a1c3d763f5bc0790784ba162c3942957d}
+aktualizuj kompas (niedostepny w pierwszej scenie) \hypertarget{class_effect_ae3df4e1067f5ce70ab7faa70314abbc8}{
+\index{Effect@{Effect}!updateEffects@{updateEffects}}
+\index{updateEffects@{updateEffects}!Effect@{Effect}}
+\subsubsection[{updateEffects}]{\setlength{\rightskip}{0pt plus 5cm}void Effect::updateEffects ({\bf Settings} $\ast$ {\em sSet}, \/  ELevels {\em level}, \/  IVideoDriver $\ast$ {\em driver}, \/  ISceneManager $\ast$ {\em smgr}, \/  ICameraSceneNode $\ast$ {\em camera})}}
+\label{class_effect_ae3df4e1067f5ce70ab7faa70314abbc8}
+altualizuj efekty w scenach 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_effect_a97bca2df55a7bed5e0045d7442fe1601}{
+\index{Effect@{Effect}!isTesting@{isTesting}}
+\index{isTesting@{isTesting}!Effect@{Effect}}
+\subsubsection[{isTesting}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Effect::isTesting}}}
+\label{class_effect_a97bca2df55a7bed5e0045d7442fe1601}
+czy w danej chwili nastepuje testowanie 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+effect.h\item 
+effect.cpp\end{DoxyCompactItemize}

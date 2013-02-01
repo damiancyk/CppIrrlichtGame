@@ -1,0 +1,111 @@
+\hypertarget{class_action}{
+\section{Action Class Reference}
+\label{class_action}\index{Action@{Action}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_action_a4ec61016a46dfe617d94ee67b0c1670c}{Action} (\hyperlink{class_sound}{Sound} $\ast$s)
+\item 
+\hyperlink{class_action_acdb06775d157339256a8ecd55749226c}{$\sim$Action} ()
+\item 
+ELevels \hyperlink{class_action_afe35837862a01951fdf63f853bd79d48}{actSplashScreen} (\hyperlink{struct_settings}{Settings} $\ast$sSet)
+\item 
+ELevels \hyperlink{class_action_a2368aab6973f05206b296b39756dcbdc}{actIntro} (IAnimatedMeshSceneNode $\ast$oHero, IAnimatedMeshSceneNode $\ast$oEnemy, \hyperlink{struct_settings}{Settings} $\ast$sSet, ICameraSceneNode $\ast$camera, f32 rate)
+\item 
+ELevels \hyperlink{class_action_aa18c8609e5caabcb26d3c6b93d92159b}{actScene1} (IrrlichtDevice $\ast$device, IAnimatedMeshSceneNode $\ast$oHero, IAnimatedMeshSceneNode $\ast$oEnemy, \hyperlink{struct_settings}{Settings} $\ast$sSet, IGUIEnvironment $\ast$gui, ICameraSceneNode $\ast$camera, f32 rate, IGUIImage $\ast$planetIcon)
+\item 
+ELevels \hyperlink{class_action_af11f32ac4273cc82c15cf5f3263c8a51}{actScene2} (IrrlichtDevice $\ast$device, IAnimatedMeshSceneNode $\ast$oHero, IAnimatedMeshSceneNode $\ast$oEnemy, \hyperlink{struct_settings}{Settings} $\ast$sSet, IGUIEnvironment $\ast$gui, ICameraSceneNode $\ast$camera, f32 rate, IGUIImage $\ast$planetIcon)
+\item 
+ELevels \hyperlink{class_action_ac563c0b77763d7f05e8168e4c3737ab6}{actOutro} (\hyperlink{struct_settings}{Settings} $\ast$sSet)
+\item 
+void \hyperlink{class_action_a7839a872e9878d62b67a5c5919a4f1d9}{initializeData} (ELevels level)
+\item 
+void \hyperlink{class_action_a729929419a9d90402f0a882257725472}{showTime} (IrrlichtDevice $\ast$device, IGUIStaticText $\ast$tWatch)
+\item 
+void \hyperlink{class_action_a2c16320affb3e146dfd846c381f1eb2e}{setStartTime} (IrrlichtDevice $\ast$device)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_hero}{Hero} $\ast$ \hyperlink{class_action_aacf06ac0b16e0029a5cf496a49f6824b}{h}
+\item 
+\hyperlink{class_enemy}{Enemy} $\ast$ \hyperlink{class_action_a82c9b5b9178f7f2aa3ff8113143f8d6a}{y}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_action_a4ec61016a46dfe617d94ee67b0c1670c}{
+\index{Action@{Action}!Action@{Action}}
+\index{Action@{Action}!Action@{Action}}
+\subsubsection[{Action}]{\setlength{\rightskip}{0pt plus 5cm}Action::Action ({\bf Sound} $\ast$ {\em s})}}
+\label{class_action_a4ec61016a46dfe617d94ee67b0c1670c}
+konstruktor klasy akcja 
+
+timeStart=device-\/$>$getTimer()-\/$>$getTime(); \hypertarget{class_action_acdb06775d157339256a8ecd55749226c}{
+\index{Action@{Action}!$\sim$Action@{$\sim$Action}}
+\index{$\sim$Action@{$\sim$Action}!Action@{Action}}
+\subsubsection[{$\sim$Action}]{\setlength{\rightskip}{0pt plus 5cm}Action::$\sim$Action ()}}
+\label{class_action_acdb06775d157339256a8ecd55749226c}
+destruktor klasy akcja 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_action_a2368aab6973f05206b296b39756dcbdc}{
+\index{Action@{Action}!actIntro@{actIntro}}
+\index{actIntro@{actIntro}!Action@{Action}}
+\subsubsection[{actIntro}]{\setlength{\rightskip}{0pt plus 5cm}ELevels Action::actIntro (IAnimatedMeshSceneNode $\ast$ {\em oHero}, \/  IAnimatedMeshSceneNode $\ast$ {\em oEnemy}, \/  {\bf Settings} $\ast$ {\em sSet}, \/  ICameraSceneNode $\ast$ {\em camera}, \/  f32 {\em rate})}}
+\label{class_action_a2368aab6973f05206b296b39756dcbdc}
+wykoanywanie akcji intra \hypertarget{class_action_ac563c0b77763d7f05e8168e4c3737ab6}{
+\index{Action@{Action}!actOutro@{actOutro}}
+\index{actOutro@{actOutro}!Action@{Action}}
+\subsubsection[{actOutro}]{\setlength{\rightskip}{0pt plus 5cm}ELevels Action::actOutro ({\bf Settings} $\ast$ {\em sSet})}}
+\label{class_action_ac563c0b77763d7f05e8168e4c3737ab6}
+wykoanywanie akcji outra \hypertarget{class_action_aa18c8609e5caabcb26d3c6b93d92159b}{
+\index{Action@{Action}!actScene1@{actScene1}}
+\index{actScene1@{actScene1}!Action@{Action}}
+\subsubsection[{actScene1}]{\setlength{\rightskip}{0pt plus 5cm}ELevels Action::actScene1 (IrrlichtDevice $\ast$ {\em device}, \/  IAnimatedMeshSceneNode $\ast$ {\em oHero}, \/  IAnimatedMeshSceneNode $\ast$ {\em oEnemy}, \/  {\bf Settings} $\ast$ {\em sSet}, \/  IGUIEnvironment $\ast$ {\em gui}, \/  ICameraSceneNode $\ast$ {\em camera}, \/  f32 {\em rate}, \/  IGUIImage $\ast$ {\em planetIcon})}}
+\label{class_action_aa18c8609e5caabcb26d3c6b93d92159b}
+wykonywanie akcji sceny 1 \hypertarget{class_action_af11f32ac4273cc82c15cf5f3263c8a51}{
+\index{Action@{Action}!actScene2@{actScene2}}
+\index{actScene2@{actScene2}!Action@{Action}}
+\subsubsection[{actScene2}]{\setlength{\rightskip}{0pt plus 5cm}ELevels Action::actScene2 (IrrlichtDevice $\ast$ {\em device}, \/  IAnimatedMeshSceneNode $\ast$ {\em oHero}, \/  IAnimatedMeshSceneNode $\ast$ {\em oEnemy}, \/  {\bf Settings} $\ast$ {\em sSet}, \/  IGUIEnvironment $\ast$ {\em gui}, \/  ICameraSceneNode $\ast$ {\em camera}, \/  f32 {\em rate}, \/  IGUIImage $\ast$ {\em planetIcon})}}
+\label{class_action_af11f32ac4273cc82c15cf5f3263c8a51}
+wykonywanie akcji sceny 2 \hypertarget{class_action_afe35837862a01951fdf63f853bd79d48}{
+\index{Action@{Action}!actSplashScreen@{actSplashScreen}}
+\index{actSplashScreen@{actSplashScreen}!Action@{Action}}
+\subsubsection[{actSplashScreen}]{\setlength{\rightskip}{0pt plus 5cm}ELevels Action::actSplashScreen ({\bf Settings} $\ast$ {\em sSet})}}
+\label{class_action_afe35837862a01951fdf63f853bd79d48}
+wykonywanie splash screen \hypertarget{class_action_a7839a872e9878d62b67a5c5919a4f1d9}{
+\index{Action@{Action}!initializeData@{initializeData}}
+\index{initializeData@{initializeData}!Action@{Action}}
+\subsubsection[{initializeData}]{\setlength{\rightskip}{0pt plus 5cm}void Action::initializeData (ELevels {\em level})}}
+\label{class_action_a7839a872e9878d62b67a5c5919a4f1d9}
+ustaw parametry akcji \hypertarget{class_action_a2c16320affb3e146dfd846c381f1eb2e}{
+\index{Action@{Action}!setStartTime@{setStartTime}}
+\index{setStartTime@{setStartTime}!Action@{Action}}
+\subsubsection[{setStartTime}]{\setlength{\rightskip}{0pt plus 5cm}void Action::setStartTime (IrrlichtDevice $\ast$ {\em device})}}
+\label{class_action_a2c16320affb3e146dfd846c381f1eb2e}
+ustaw czas startu akcji \hypertarget{class_action_a729929419a9d90402f0a882257725472}{
+\index{Action@{Action}!showTime@{showTime}}
+\index{showTime@{showTime}!Action@{Action}}
+\subsubsection[{showTime}]{\setlength{\rightskip}{0pt plus 5cm}void Action::showTime (IrrlichtDevice $\ast$ {\em device}, \/  IGUIStaticText $\ast$ {\em tWatch})}}
+\label{class_action_a729929419a9d90402f0a882257725472}
+pokaz aktualny czas akcji 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_action_aacf06ac0b16e0029a5cf496a49f6824b}{
+\index{Action@{Action}!h@{h}}
+\index{h@{h}!Action@{Action}}
+\subsubsection[{h}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Hero}$\ast$ {\bf Action::h}}}
+\label{class_action_aacf06ac0b16e0029a5cf496a49f6824b}
+wskaznik na obiekt klasy reprezentujacej bohatera \hypertarget{class_action_a82c9b5b9178f7f2aa3ff8113143f8d6a}{
+\index{Action@{Action}!y@{y}}
+\index{y@{y}!Action@{Action}}
+\subsubsection[{y}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Enemy}$\ast$ {\bf Action::y}}}
+\label{class_action_a82c9b5b9178f7f2aa3ff8113143f8d6a}
+wskaznik na obiekt klasy reprezentujacej przeciwnika 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+action.h\item 
+action.cpp\end{DoxyCompactItemize}

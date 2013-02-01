@@ -1,0 +1,187 @@
+\hypertarget{class_hero}{
+\section{Hero Class Reference}
+\label{class_hero}\index{Hero@{Hero}}
+}
+
+
+{\ttfamily \#include $<$hero.h$>$}\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_hero_ab5920677a4b5cb59d6f513922d037dca}{Hero} ()
+\item 
+\hyperlink{class_hero_a5aeef41ede5a80dc29c5acd7b553c4da}{$\sim$Hero} ()
+\item 
+void \hyperlink{class_hero_ad57516db78b85e46ff6f063c6247a05c}{updateHero} (IAnimatedMeshSceneNode $\ast$oHero, IAnimatedMeshSceneNode $\ast$oGun)
+\item 
+void \hyperlink{class_hero_abbbe33967d88b417ea31f86ab68d9499}{updateCamera} (\hyperlink{struct_settings}{Settings} $\ast$sSet, IAnimatedMeshSceneNode $\ast$oHero, ICameraSceneNode $\ast$camera, position2d$<$ f32 $>$ cursorPos, f32 rateMouse, f32 rateSniper, f32 rateSniperY)
+\item 
+void \hyperlink{class_hero_a46f8101e8f28057d8cc048cf9496db35}{jump} (IAnimatedMeshSceneNode $\ast$oHero, IAnimatedMeshSceneNode $\ast$oGun)
+\item 
+void \hyperlink{class_hero_a27173f26480105b6acbf3ab740c9b82b}{setName} (ISceneManager $\ast$smgr, IAnimatedMeshSceneNode $\ast$oHero)
+\item 
+void \hyperlink{class_hero_a7682852f066beb607b1cf96894c40201}{loadHeroBillboards} (ISceneManager $\ast$smgr, IVideoDriver $\ast$driver)
+\item 
+void \hyperlink{class_hero_a31dd095888381f04a7ea22af8a8e40df}{updateHeroBillboards} (IAnimatedMeshSceneNode $\ast$oHero, vector3df intersection)
+\item 
+void \hyperlink{class_hero_ab87e6847fb025a4be4b6d33ed429f7d0}{setStartValues} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+f32 \hyperlink{class_hero_a6ab09c62a1129609420943ddaea4ac50}{life}
+\item 
+f32 \hyperlink{class_hero_a73de3a70b8e660626bd6ba863b69f593}{armor}
+\item 
+bool \hyperlink{class_hero_aa1b8ba4fd9f005df0339019a4aea4727}{isAttacking}
+\item 
+stringw \hyperlink{class_hero_aaedb868881c5a1a38d862dade0e6e030}{heroName}
+\item 
+IBillboardSceneNode $\ast$ \hyperlink{class_hero_ae3dcb584303cef76dab909c103934655}{bCrosshair}
+\item 
+f32 \hyperlink{class_hero_a17831133c4588d6508d902e93a63cf05}{anglePlus}
+\item 
+vector3df \hyperlink{class_hero_abbb623e457418c1430c8838b46381166}{facingGun}
+\item 
+vector3df \hyperlink{class_hero_afac7e4e706ab911bd5d55c6afd8b43b0}{posRayPlus}
+\item 
+f32 \hyperlink{class_hero_aa56f0d2e5320927be5043d0f43c48c0e}{MOVEMENT\_\-SPEED}
+\item 
+vector3df \hyperlink{class_hero_a82afd40685996ca4de51159be95264d9}{facing}
+\item 
+dimension2d$<$ f32 $>$ \hyperlink{class_hero_a130a9079bc539aa7dda77f9dd52b93cf}{crosshairSize}
+\item 
+dimension2d$<$ f32 $>$ \hyperlink{class_hero_a27619bdf7c58a489c832cbb5566a1a83}{crosshairSizeBig}
+\item 
+\hypertarget{class_hero_ae570689e68a82c7698ca16013505c75d}{
+bool {\bfseries isJump}}
+\label{class_hero_ae570689e68a82c7698ca16013505c75d}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_hero}{Hero} Klasa reprezentujaca bohatera \begin{DoxyNote}{Note}
+Posiada wiele pol umozliwiajacych obsluge jego ruchu oraz update'owanie tych zmiennych 
+\end{DoxyNote}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_hero_ab5920677a4b5cb59d6f513922d037dca}{
+\index{Hero@{Hero}!Hero@{Hero}}
+\index{Hero@{Hero}!Hero@{Hero}}
+\subsubsection[{Hero}]{\setlength{\rightskip}{0pt plus 5cm}Hero::Hero ()}}
+\label{class_hero_ab5920677a4b5cb59d6f513922d037dca}
+konstruktor klasy \hyperlink{class_hero}{Hero} \hypertarget{class_hero_a5aeef41ede5a80dc29c5acd7b553c4da}{
+\index{Hero@{Hero}!$\sim$Hero@{$\sim$Hero}}
+\index{$\sim$Hero@{$\sim$Hero}!Hero@{Hero}}
+\subsubsection[{$\sim$Hero}]{\setlength{\rightskip}{0pt plus 5cm}Hero::$\sim$Hero ()}}
+\label{class_hero_a5aeef41ede5a80dc29c5acd7b553c4da}
+destruktor klasy \hyperlink{class_hero}{Hero} 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_hero_a46f8101e8f28057d8cc048cf9496db35}{
+\index{Hero@{Hero}!jump@{jump}}
+\index{jump@{jump}!Hero@{Hero}}
+\subsubsection[{jump}]{\setlength{\rightskip}{0pt plus 5cm}void Hero::jump (IAnimatedMeshSceneNode $\ast$ {\em oHero}, \/  IAnimatedMeshSceneNode $\ast$ {\em oGun})}}
+\label{class_hero_a46f8101e8f28057d8cc048cf9496db35}
+skok bohatera \hypertarget{class_hero_a7682852f066beb607b1cf96894c40201}{
+\index{Hero@{Hero}!loadHeroBillboards@{loadHeroBillboards}}
+\index{loadHeroBillboards@{loadHeroBillboards}!Hero@{Hero}}
+\subsubsection[{loadHeroBillboards}]{\setlength{\rightskip}{0pt plus 5cm}void Hero::loadHeroBillboards (ISceneManager $\ast$ {\em smgr}, \/  IVideoDriver $\ast$ {\em driver})}}
+\label{class_hero_a7682852f066beb607b1cf96894c40201}
+zaladowanie billboardow bohatera \hypertarget{class_hero_a27173f26480105b6acbf3ab740c9b82b}{
+\index{Hero@{Hero}!setName@{setName}}
+\index{setName@{setName}!Hero@{Hero}}
+\subsubsection[{setName}]{\setlength{\rightskip}{0pt plus 5cm}void Hero::setName (ISceneManager $\ast$ {\em smgr}, \/  IAnimatedMeshSceneNode $\ast$ {\em oHero})}}
+\label{class_hero_a27173f26480105b6acbf3ab740c9b82b}
+ustawienie nicku bohatera \hypertarget{class_hero_ab87e6847fb025a4be4b6d33ed429f7d0}{
+\index{Hero@{Hero}!setStartValues@{setStartValues}}
+\index{setStartValues@{setStartValues}!Hero@{Hero}}
+\subsubsection[{setStartValues}]{\setlength{\rightskip}{0pt plus 5cm}void Hero::setStartValues ()}}
+\label{class_hero_ab87e6847fb025a4be4b6d33ed429f7d0}
+funkcja ustawiajaca wartosci startowe dla bohatera \hypertarget{class_hero_abbbe33967d88b417ea31f86ab68d9499}{
+\index{Hero@{Hero}!updateCamera@{updateCamera}}
+\index{updateCamera@{updateCamera}!Hero@{Hero}}
+\subsubsection[{updateCamera}]{\setlength{\rightskip}{0pt plus 5cm}void Hero::updateCamera ({\bf Settings} $\ast$ {\em sSet}, \/  IAnimatedMeshSceneNode $\ast$ {\em oHero}, \/  ICameraSceneNode $\ast$ {\em camera}, \/  position2d$<$ f32 $>$ {\em cursorPos}, \/  f32 {\em rateMouse}, \/  f32 {\em rateSniper}, \/  f32 {\em rateSniperY})}}
+\label{class_hero_abbbe33967d88b417ea31f86ab68d9499}
+update kamery (jest to kamera z trzeciej osoby) 
+
+zmienne obrotu bohatera i uaktualnianie ich poprzez mysz \hypertarget{class_hero_ad57516db78b85e46ff6f063c6247a05c}{
+\index{Hero@{Hero}!updateHero@{updateHero}}
+\index{updateHero@{updateHero}!Hero@{Hero}}
+\subsubsection[{updateHero}]{\setlength{\rightskip}{0pt plus 5cm}void Hero::updateHero (IAnimatedMeshSceneNode $\ast$ {\em oHero}, \/  IAnimatedMeshSceneNode $\ast$ {\em oGun})}}
+\label{class_hero_ad57516db78b85e46ff6f063c6247a05c}
+update obiektu bohatera na podstawie pol z klasy \hyperlink{class_hero}{Hero} \hypertarget{class_hero_a31dd095888381f04a7ea22af8a8e40df}{
+\index{Hero@{Hero}!updateHeroBillboards@{updateHeroBillboards}}
+\index{updateHeroBillboards@{updateHeroBillboards}!Hero@{Hero}}
+\subsubsection[{updateHeroBillboards}]{\setlength{\rightskip}{0pt plus 5cm}void Hero::updateHeroBillboards (IAnimatedMeshSceneNode $\ast$ {\em oHero}, \/  vector3df {\em intersection})}}
+\label{class_hero_a31dd095888381f04a7ea22af8a8e40df}
+aktualizacja billboardow bohatera 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_hero_a17831133c4588d6508d902e93a63cf05}{
+\index{Hero@{Hero}!anglePlus@{anglePlus}}
+\index{anglePlus@{anglePlus}!Hero@{Hero}}
+\subsubsection[{anglePlus}]{\setlength{\rightskip}{0pt plus 5cm}f32 {\bf Hero::anglePlus}}}
+\label{class_hero_a17831133c4588d6508d902e93a63cf05}
+kat dodatkowego aktualnego obrotu w osi Y \hypertarget{class_hero_a73de3a70b8e660626bd6ba863b69f593}{
+\index{Hero@{Hero}!armor@{armor}}
+\index{armor@{armor}!Hero@{Hero}}
+\subsubsection[{armor}]{\setlength{\rightskip}{0pt plus 5cm}f32 {\bf Hero::armor}}}
+\label{class_hero_a73de3a70b8e660626bd6ba863b69f593}
+ilosc pancerza bohatera \hypertarget{class_hero_ae3dcb584303cef76dab909c103934655}{
+\index{Hero@{Hero}!bCrosshair@{bCrosshair}}
+\index{bCrosshair@{bCrosshair}!Hero@{Hero}}
+\subsubsection[{bCrosshair}]{\setlength{\rightskip}{0pt plus 5cm}IBillboardSceneNode$\ast$ {\bf Hero::bCrosshair}}}
+\label{class_hero_ae3dcb584303cef76dab909c103934655}
+celownik bohatera \hypertarget{class_hero_a130a9079bc539aa7dda77f9dd52b93cf}{
+\index{Hero@{Hero}!crosshairSize@{crosshairSize}}
+\index{crosshairSize@{crosshairSize}!Hero@{Hero}}
+\subsubsection[{crosshairSize}]{\setlength{\rightskip}{0pt plus 5cm}dimension2d$<$f32$>$ {\bf Hero::crosshairSize}}}
+\label{class_hero_a130a9079bc539aa7dda77f9dd52b93cf}
+rozmiar celownika \hypertarget{class_hero_a27619bdf7c58a489c832cbb5566a1a83}{
+\index{Hero@{Hero}!crosshairSizeBig@{crosshairSizeBig}}
+\index{crosshairSizeBig@{crosshairSizeBig}!Hero@{Hero}}
+\subsubsection[{crosshairSizeBig}]{\setlength{\rightskip}{0pt plus 5cm}dimension2d$<$f32$>$ {\bf Hero::crosshairSizeBig}}}
+\label{class_hero_a27619bdf7c58a489c832cbb5566a1a83}
+rozmiar niekatywnego celownika \hypertarget{class_hero_a82afd40685996ca4de51159be95264d9}{
+\index{Hero@{Hero}!facing@{facing}}
+\index{facing@{facing}!Hero@{Hero}}
+\subsubsection[{facing}]{\setlength{\rightskip}{0pt plus 5cm}vector3df {\bf Hero::facing}}}
+\label{class_hero_a82afd40685996ca4de51159be95264d9}
+wektor kierunkowy bohatera, uzywany np do poruszania sie bohatera \hypertarget{class_hero_abbb623e457418c1430c8838b46381166}{
+\index{Hero@{Hero}!facingGun@{facingGun}}
+\index{facingGun@{facingGun}!Hero@{Hero}}
+\subsubsection[{facingGun}]{\setlength{\rightskip}{0pt plus 5cm}vector3df {\bf Hero::facingGun}}}
+\label{class_hero_abbb623e457418c1430c8838b46381166}
+wektor kierunkowy broni bohatera \hypertarget{class_hero_aaedb868881c5a1a38d862dade0e6e030}{
+\index{Hero@{Hero}!heroName@{heroName}}
+\index{heroName@{heroName}!Hero@{Hero}}
+\subsubsection[{heroName}]{\setlength{\rightskip}{0pt plus 5cm}stringw {\bf Hero::heroName}}}
+\label{class_hero_aaedb868881c5a1a38d862dade0e6e030}
+nick bohatera \hypertarget{class_hero_aa1b8ba4fd9f005df0339019a4aea4727}{
+\index{Hero@{Hero}!isAttacking@{isAttacking}}
+\index{isAttacking@{isAttacking}!Hero@{Hero}}
+\subsubsection[{isAttacking}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Hero::isAttacking}}}
+\label{class_hero_aa1b8ba4fd9f005df0339019a4aea4727}
+czy bohater jest atakowany w danej chwili \hypertarget{class_hero_a6ab09c62a1129609420943ddaea4ac50}{
+\index{Hero@{Hero}!life@{life}}
+\index{life@{life}!Hero@{Hero}}
+\subsubsection[{life}]{\setlength{\rightskip}{0pt plus 5cm}f32 {\bf Hero::life}}}
+\label{class_hero_a6ab09c62a1129609420943ddaea4ac50}
+ilosc zycia bohatera \hypertarget{class_hero_aa56f0d2e5320927be5043d0f43c48c0e}{
+\index{Hero@{Hero}!MOVEMENT\_\-SPEED@{MOVEMENT\_\-SPEED}}
+\index{MOVEMENT\_\-SPEED@{MOVEMENT\_\-SPEED}!Hero@{Hero}}
+\subsubsection[{MOVEMENT\_\-SPEED}]{\setlength{\rightskip}{0pt plus 5cm}f32 {\bf Hero::MOVEMENT\_\-SPEED}}}
+\label{class_hero_aa56f0d2e5320927be5043d0f43c48c0e}
+predkosc poruszania sie bohatera \hypertarget{class_hero_afac7e4e706ab911bd5d55c6afd8b43b0}{
+\index{Hero@{Hero}!posRayPlus@{posRayPlus}}
+\index{posRayPlus@{posRayPlus}!Hero@{Hero}}
+\subsubsection[{posRayPlus}]{\setlength{\rightskip}{0pt plus 5cm}vector3df {\bf Hero::posRayPlus}}}
+\label{class_hero_afac7e4e706ab911bd5d55c6afd8b43b0}
+zmienna pomocnicza do obslugi ray tracingu dla obslugi kamer 3 osoby (TPP/FPP) 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+hero.h\item 
+hero.cpp\end{DoxyCompactItemize}

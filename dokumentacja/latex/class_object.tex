@@ -1,0 +1,240 @@
+\hypertarget{class_object}{
+\section{Object Class Reference}
+\label{class_object}\index{Object@{Object}}
+}
+
+
+{\ttfamily \#include $<$object.h$>$}\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bfseries struct2D}
+\item 
+struct {\bfseries structGameSettings}
+\item 
+struct {\bfseries structGUI}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_object_a40860402e64d8008fb42329df7097cdb}{Object} ()
+\item 
+\hyperlink{class_object_ae8f5483f459e46687bd01e6f9977afd3}{$\sim$Object} ()
+\item 
+void \hyperlink{class_object_a68ef83926d51bf6ad551acff8e0ead9a}{updateGuiHeroStats} (f32 life, f32 armor)
+\item 
+void \hyperlink{class_object_a3786f65b2eaad05502a69a3980d52a3e}{draw2D} (IrrlichtDevice $\ast$device, IVideoDriver $\ast$driver, u32 time, \hyperlink{struct_settings}{Settings} $\ast$sSet)
+\item 
+void \hyperlink{class_object_aae58057996011759b3a86ec495200658}{loadMenuGUI} (\hyperlink{struct_settings}{Settings} $\ast$sSet, IrrlichtDevice $\ast$device, ISceneManager $\ast$smgr, IVideoDriver $\ast$driver, IGUIEnvironment $\ast$gui, eTypeOfMainMenu)
+\item 
+void \hyperlink{class_object_aed021ca829f254bedbfb190c7d683da5}{loadMenuTerrain} (ISceneManager $\ast$smgr, IVideoDriver $\ast$driver, \hyperlink{struct_settings}{Settings} $\ast$sSet)
+\item 
+void \hyperlink{class_object_a4c28e46b2930d045bc54f597e98755c7}{loadIntro} (\hyperlink{struct_settings}{Settings} $\ast$sSet, IrrlichtDevice $\ast$device, ISceneManager $\ast$smgr, IVideoDriver $\ast$driver, IGUIEnvironment $\ast$gui, ICameraSceneNode $\ast$camera)
+\item 
+void \hyperlink{class_object_ab5d2b74308132018476430c1082ed77e}{loadScene1} (\hyperlink{struct_settings}{Settings} $\ast$sSet, IrrlichtDevice $\ast$device, ISceneManager $\ast$smgr, IVideoDriver $\ast$driver, IGUIEnvironment $\ast$gui, ICameraSceneNode $\ast$camera)
+\item 
+void \hyperlink{class_object_a18a77ca84a5ddec4574090e7fb6ab4c2}{loadGameGUI} (IGUIEnvironment $\ast$gui, IVideoDriver $\ast$driver, IrrlichtDevice $\ast$device, ETypeOfGameMenu, \hyperlink{struct_settings}{Settings} $\ast$sSet)
+\item 
+void \hyperlink{class_object_a502bbb81d048c65d64497a2ccade5073}{loadScene2} (\hyperlink{struct_settings}{Settings} $\ast$sSet, IrrlichtDevice $\ast$device, ISceneManager $\ast$smgr, IVideoDriver $\ast$driver, IGUIEnvironment $\ast$gui, ICameraSceneNode $\ast$camera)
+\item 
+void \hyperlink{class_object_a7dbe8859e5024bc0a16edf9615edf62a}{loadOutro} (\hyperlink{struct_settings}{Settings} $\ast$sSet, IrrlichtDevice $\ast$device, ISceneManager $\ast$smgr, IVideoDriver $\ast$driver, IGUIEnvironment $\ast$gui, ICameraSceneNode $\ast$camera)
+\item 
+void \hyperlink{class_object_a2d649bee781837512bfb88ecb7f6897c}{setChecked} (\hyperlink{struct_settings}{Settings} $\ast$sSet)
+\item 
+void \hyperlink{class_object_a25dd8da4c236842632978587fa6d9189}{changeEffectsAvailability} (bool isEnabled)
+\item 
+void \hyperlink{class_object_a32a420d251e0916b6f3cdf00564874b8}{addMessage} (const wchar\_\-t $\ast$text, s32 icon)
+\item 
+void \hyperlink{class_object_add60901913f88fc081a5aa8ed041ae5d}{changeSoundsAvailability} (bool isEnabled)
+\item 
+ETypeOfObject \hyperlink{class_object_ab771573e5fa66810619f0ba444d1d41f}{shoot} (ISceneNode $\ast$selectedSceneNode, IAnimatedMeshSceneNode $\ast$\hyperlink{class_object_a3b56533b0adcd6fda47335a0eee5bcaf}{oHero}, IAnimatedMeshSceneNode $\ast$\hyperlink{class_object_a3c65503a7c664fbbfcd35609ae98c331}{oEnemy}, ISoundEngine $\ast$engineSnd)
+\item 
+void \hyperlink{class_object_aeff9cde4ca43dc09601869b8f43c7c3b}{load2D} (IrrlichtDevice $\ast$device, IVideoDriver $\ast$driver)
+\item 
+void \hyperlink{class_object_aa91a4c120c560f886c704e6b9b521231}{updateFpsGui} (IrrlichtDevice $\ast$device, IVideoDriver $\ast$driver, IGUIEnvironment $\ast$gui)
+\item 
+void \hyperlink{class_object_ab3a8ba3b8172436a0687b1e908570a3f}{loadWerewolves} (IVideoDriver $\ast$driver, ISceneManager $\ast$smgr, IAnimatedMeshSceneNode $\ast$werewolves\mbox{[}10\mbox{]}\mbox{[}10\mbox{]}, vector3df pos)
+\item 
+void \hyperlink{class_object_a5e32d564cb86f3bd5b4d9f1ba74e9fdf}{moveWerewolves} (IAnimatedMeshSceneNode $\ast$werewolves\mbox{[}10\mbox{]}\mbox{[}10\mbox{]}, vector3df pos)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+IAnimatedMeshSceneNode $\ast$ \hyperlink{class_object_a2755057c8b1b2ace1d83ca3fb075b1df}{anode}
+\item 
+IAnimatedMeshSceneNode $\ast$ \hyperlink{class_object_a3b56533b0adcd6fda47335a0eee5bcaf}{oHero}
+\item 
+IAnimatedMeshSceneNode $\ast$ \hyperlink{class_object_ae37498ada787b94577580b7cfee28272}{oGun}
+\item 
+IAnimatedMeshSceneNode $\ast$ \hyperlink{class_object_a3c65503a7c664fbbfcd35609ae98c331}{oEnemy}
+\item 
+IGUIImage $\ast$ \hyperlink{class_object_aa1b266835c9b023b619983cd81cd3da7}{planetIcon}
+\item 
+ISceneNode $\ast$ \hyperlink{class_object_a191559450f604c498012df73e84b94bc}{terrain}
+\item 
+structGUI \hyperlink{class_object_a19ca4a51a8dfdbdb4fc7b729f4ade618}{sGui}
+\item 
+ETypeOfGameMenu \hyperlink{class_object_aaabe391bdcbceb9a444921b1911cea5e}{eTypeOfGameMenu}
+\item 
+\hypertarget{class_object_a693a8c937768db81e734bc7c83d00847}{
+IAnimatedMeshSceneNode $\ast$ {\bfseries werewolves} \mbox{[}10\mbox{]}\mbox{[}10\mbox{]}}
+\label{class_object_a693a8c937768db81e734bc7c83d00847}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+klasa \hyperlink{class_object}{Object} to jedna z kilku klas projektowanego przeze mnie silnika posiada ona pola, które reprezentuja adresy do wszystkich obiektow w grze metody tej klasy pozwalaja na obsluge obiektow 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_object_a40860402e64d8008fb42329df7097cdb}{
+\index{Object@{Object}!Object@{Object}}
+\index{Object@{Object}!Object@{Object}}
+\subsubsection[{Object}]{\setlength{\rightskip}{0pt plus 5cm}Object::Object ()}}
+\label{class_object_a40860402e64d8008fb42329df7097cdb}
+konstruktor klasy \hyperlink{class_object}{Object} \hypertarget{class_object_ae8f5483f459e46687bd01e6f9977afd3}{
+\index{Object@{Object}!$\sim$Object@{$\sim$Object}}
+\index{$\sim$Object@{$\sim$Object}!Object@{Object}}
+\subsubsection[{$\sim$Object}]{\setlength{\rightskip}{0pt plus 5cm}Object::$\sim$Object ()}}
+\label{class_object_ae8f5483f459e46687bd01e6f9977afd3}
+destruktor klasy \hyperlink{class_object}{Object} 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_object_a32a420d251e0916b6f3cdf00564874b8}{
+\index{Object@{Object}!addMessage@{addMessage}}
+\index{addMessage@{addMessage}!Object@{Object}}
+\subsubsection[{addMessage}]{\setlength{\rightskip}{0pt plus 5cm}void Object::addMessage (const wchar\_\-t $\ast$ {\em text}, \/  s32 {\em icon})}}
+\label{class_object_a32a420d251e0916b6f3cdf00564874b8}
+dodaj wiadomosc na mini konsolki w menu glownym \hypertarget{class_object_a25dd8da4c236842632978587fa6d9189}{
+\index{Object@{Object}!changeEffectsAvailability@{changeEffectsAvailability}}
+\index{changeEffectsAvailability@{changeEffectsAvailability}!Object@{Object}}
+\subsubsection[{changeEffectsAvailability}]{\setlength{\rightskip}{0pt plus 5cm}void Object::changeEffectsAvailability (bool {\em isEnabled})}}
+\label{class_object_a25dd8da4c236842632978587fa6d9189}
+jesli ustawisz na nieaktywna opcje efekty, nie mozesz tez ich zmieniac \hypertarget{class_object_add60901913f88fc081a5aa8ed041ae5d}{
+\index{Object@{Object}!changeSoundsAvailability@{changeSoundsAvailability}}
+\index{changeSoundsAvailability@{changeSoundsAvailability}!Object@{Object}}
+\subsubsection[{changeSoundsAvailability}]{\setlength{\rightskip}{0pt plus 5cm}void Object::changeSoundsAvailability (bool {\em isEnabled})}}
+\label{class_object_add60901913f88fc081a5aa8ed041ae5d}
+jesli ustawisz na nieaktywna opcje dzwieki, nie mozesz tez ich zmieniac \hypertarget{class_object_a3786f65b2eaad05502a69a3980d52a3e}{
+\index{Object@{Object}!draw2D@{draw2D}}
+\index{draw2D@{draw2D}!Object@{Object}}
+\subsubsection[{draw2D}]{\setlength{\rightskip}{0pt plus 5cm}void Object::draw2D (IrrlichtDevice $\ast$ {\em device}, \/  IVideoDriver $\ast$ {\em driver}, \/  u32 {\em time}, \/  {\bf Settings} $\ast$ {\em sSet})}}
+\label{class_object_a3786f65b2eaad05502a69a3980d52a3e}
+rysowanie prezentacji 2D w menu gry \hypertarget{class_object_aeff9cde4ca43dc09601869b8f43c7c3b}{
+\index{Object@{Object}!load2D@{load2D}}
+\index{load2D@{load2D}!Object@{Object}}
+\subsubsection[{load2D}]{\setlength{\rightskip}{0pt plus 5cm}void Object::load2D (IrrlichtDevice $\ast$ {\em device}, \/  IVideoDriver $\ast$ {\em driver})}}
+\label{class_object_aeff9cde4ca43dc09601869b8f43c7c3b}
+zaladuj prezentacje 2D w menu gry \hypertarget{class_object_a18a77ca84a5ddec4574090e7fb6ab4c2}{
+\index{Object@{Object}!loadGameGUI@{loadGameGUI}}
+\index{loadGameGUI@{loadGameGUI}!Object@{Object}}
+\subsubsection[{loadGameGUI}]{\setlength{\rightskip}{0pt plus 5cm}void Object::loadGameGUI (IGUIEnvironment $\ast$ {\em gui}, \/  IVideoDriver $\ast$ {\em driver}, \/  IrrlichtDevice $\ast$ {\em device}, \/  ETypeOfGameMenu {\em t}, \/  {\bf Settings} $\ast$ {\em sSet})}}
+\label{class_object_a18a77ca84a5ddec4574090e7fb6ab4c2}
+zaladowanie GUI gry \hypertarget{class_object_a4c28e46b2930d045bc54f597e98755c7}{
+\index{Object@{Object}!loadIntro@{loadIntro}}
+\index{loadIntro@{loadIntro}!Object@{Object}}
+\subsubsection[{loadIntro}]{\setlength{\rightskip}{0pt plus 5cm}void Object::loadIntro ({\bf Settings} $\ast$ {\em sSet}, \/  IrrlichtDevice $\ast$ {\em device}, \/  ISceneManager $\ast$ {\em smgr}, \/  IVideoDriver $\ast$ {\em driver}, \/  IGUIEnvironment $\ast$ {\em gui}, \/  ICameraSceneNode $\ast$ {\em camera})}}
+\label{class_object_a4c28e46b2930d045bc54f597e98755c7}
+zaladowanie intro \hypertarget{class_object_aae58057996011759b3a86ec495200658}{
+\index{Object@{Object}!loadMenuGUI@{loadMenuGUI}}
+\index{loadMenuGUI@{loadMenuGUI}!Object@{Object}}
+\subsubsection[{loadMenuGUI}]{\setlength{\rightskip}{0pt plus 5cm}void Object::loadMenuGUI ({\bf Settings} $\ast$ {\em sSet}, \/  IrrlichtDevice $\ast$ {\em device}, \/  ISceneManager $\ast$ {\em smgr}, \/  IVideoDriver $\ast$ {\em driver}, \/  IGUIEnvironment $\ast$ {\em gui}, \/  eTypeOfMainMenu {\em typeMainMenu})}}
+\label{class_object_aae58057996011759b3a86ec495200658}
+zaladowanie menu \hypertarget{class_object_aed021ca829f254bedbfb190c7d683da5}{
+\index{Object@{Object}!loadMenuTerrain@{loadMenuTerrain}}
+\index{loadMenuTerrain@{loadMenuTerrain}!Object@{Object}}
+\subsubsection[{loadMenuTerrain}]{\setlength{\rightskip}{0pt plus 5cm}void Object::loadMenuTerrain (ISceneManager $\ast$ {\em smgr}, \/  IVideoDriver $\ast$ {\em driver}, \/  {\bf Settings} $\ast$ {\em sSet})}}
+\label{class_object_aed021ca829f254bedbfb190c7d683da5}
+zaladowanie terenu do menu glownego \hypertarget{class_object_a7dbe8859e5024bc0a16edf9615edf62a}{
+\index{Object@{Object}!loadOutro@{loadOutro}}
+\index{loadOutro@{loadOutro}!Object@{Object}}
+\subsubsection[{loadOutro}]{\setlength{\rightskip}{0pt plus 5cm}void Object::loadOutro ({\bf Settings} $\ast$ {\em sSet}, \/  IrrlichtDevice $\ast$ {\em device}, \/  ISceneManager $\ast$ {\em smgr}, \/  IVideoDriver $\ast$ {\em driver}, \/  IGUIEnvironment $\ast$ {\em gui}, \/  ICameraSceneNode $\ast$ {\em camera})}}
+\label{class_object_a7dbe8859e5024bc0a16edf9615edf62a}
+zaladowanie outro \hypertarget{class_object_ab5d2b74308132018476430c1082ed77e}{
+\index{Object@{Object}!loadScene1@{loadScene1}}
+\index{loadScene1@{loadScene1}!Object@{Object}}
+\subsubsection[{loadScene1}]{\setlength{\rightskip}{0pt plus 5cm}void Object::loadScene1 ({\bf Settings} $\ast$ {\em sSet}, \/  IrrlichtDevice $\ast$ {\em device}, \/  ISceneManager $\ast$ {\em smgr}, \/  IVideoDriver $\ast$ {\em driver}, \/  IGUIEnvironment $\ast$ {\em gui}, \/  ICameraSceneNode $\ast$ {\em camera})}}
+\label{class_object_ab5d2b74308132018476430c1082ed77e}
+zaladowanie sceny 1 \hypertarget{class_object_a502bbb81d048c65d64497a2ccade5073}{
+\index{Object@{Object}!loadScene2@{loadScene2}}
+\index{loadScene2@{loadScene2}!Object@{Object}}
+\subsubsection[{loadScene2}]{\setlength{\rightskip}{0pt plus 5cm}void Object::loadScene2 ({\bf Settings} $\ast$ {\em sSet}, \/  IrrlichtDevice $\ast$ {\em device}, \/  ISceneManager $\ast$ {\em smgr}, \/  IVideoDriver $\ast$ {\em driver}, \/  IGUIEnvironment $\ast$ {\em gui}, \/  ICameraSceneNode $\ast$ {\em camera})}}
+\label{class_object_a502bbb81d048c65d64497a2ccade5073}
+zaladowanie sceny 2 \hypertarget{class_object_ab3a8ba3b8172436a0687b1e908570a3f}{
+\index{Object@{Object}!loadWerewolves@{loadWerewolves}}
+\index{loadWerewolves@{loadWerewolves}!Object@{Object}}
+\subsubsection[{loadWerewolves}]{\setlength{\rightskip}{0pt plus 5cm}void Object::loadWerewolves (IVideoDriver $\ast$ {\em driver}, \/  ISceneManager $\ast$ {\em smgr}, \/  IAnimatedMeshSceneNode $\ast$ {\em werewolves}\mbox{[}10\mbox{]}\mbox{[}10\mbox{]}, \/  vector3df {\em pos})}}
+\label{class_object_ab3a8ba3b8172436a0687b1e908570a3f}
+funkcja ladujaca model wilkolaka wielokorotnie w jednej scenie \hypertarget{class_object_a5e32d564cb86f3bd5b4d9f1ba74e9fdf}{
+\index{Object@{Object}!moveWerewolves@{moveWerewolves}}
+\index{moveWerewolves@{moveWerewolves}!Object@{Object}}
+\subsubsection[{moveWerewolves}]{\setlength{\rightskip}{0pt plus 5cm}void Object::moveWerewolves (IAnimatedMeshSceneNode $\ast$ {\em werewolves}\mbox{[}10\mbox{]}\mbox{[}10\mbox{]}, \/  vector3df {\em pos})}}
+\label{class_object_a5e32d564cb86f3bd5b4d9f1ba74e9fdf}
+funkcja poruszajaca wieloma wilkolalkami znajdujacymi sie na jednej scenie \hypertarget{class_object_a2d649bee781837512bfb88ecb7f6897c}{
+\index{Object@{Object}!setChecked@{setChecked}}
+\index{setChecked@{setChecked}!Object@{Object}}
+\subsubsection[{setChecked}]{\setlength{\rightskip}{0pt plus 5cm}void Object::setChecked ({\bf Settings} $\ast$ {\em sSet})}}
+\label{class_object_a2d649bee781837512bfb88ecb7f6897c}
+ustaw editBoxy w menu w zaleznosci od stanu zmiennych \hypertarget{class_object_ab771573e5fa66810619f0ba444d1d41f}{
+\index{Object@{Object}!shoot@{shoot}}
+\index{shoot@{shoot}!Object@{Object}}
+\subsubsection[{shoot}]{\setlength{\rightskip}{0pt plus 5cm}ETypeOfObject Object::shoot (ISceneNode $\ast$ {\em selectedSceneNode}, \/  IAnimatedMeshSceneNode $\ast$ {\em oHero}, \/  IAnimatedMeshSceneNode $\ast$ {\em oEnemy}, \/  ISoundEngine $\ast$ {\em engineSnd})}}
+\label{class_object_ab771573e5fa66810619f0ba444d1d41f}
+funkcja strzalu zwraca ID obiektu ktory trafilismy \hypertarget{class_object_aa91a4c120c560f886c704e6b9b521231}{
+\index{Object@{Object}!updateFpsGui@{updateFpsGui}}
+\index{updateFpsGui@{updateFpsGui}!Object@{Object}}
+\subsubsection[{updateFpsGui}]{\setlength{\rightskip}{0pt plus 5cm}void Object::updateFpsGui (IrrlichtDevice $\ast$ {\em device}, \/  IVideoDriver $\ast$ {\em driver}, \/  IGUIEnvironment $\ast$ {\em gui})}}
+\label{class_object_aa91a4c120c560f886c704e6b9b521231}
+zmieniaj na biezaco wartosc FPS w GUI gry \hypertarget{class_object_a68ef83926d51bf6ad551acff8e0ead9a}{
+\index{Object@{Object}!updateGuiHeroStats@{updateGuiHeroStats}}
+\index{updateGuiHeroStats@{updateGuiHeroStats}!Object@{Object}}
+\subsubsection[{updateGuiHeroStats}]{\setlength{\rightskip}{0pt plus 5cm}void Object::updateGuiHeroStats (f32 {\em life}, \/  f32 {\em armor})}}
+\label{class_object_a68ef83926d51bf6ad551acff8e0ead9a}
+zmiana na biezaco statystyk bohatera w GUI gry 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_object_a2755057c8b1b2ace1d83ca3fb075b1df}{
+\index{Object@{Object}!anode@{anode}}
+\index{anode@{anode}!Object@{Object}}
+\subsubsection[{anode}]{\setlength{\rightskip}{0pt plus 5cm}IAnimatedMeshSceneNode$\ast$ {\bf Object::anode}}}
+\label{class_object_a2755057c8b1b2ace1d83ca3fb075b1df}
+wskaznik na animowany obiekt w menu glownym \hypertarget{class_object_aaabe391bdcbceb9a444921b1911cea5e}{
+\index{Object@{Object}!eTypeOfGameMenu@{eTypeOfGameMenu}}
+\index{eTypeOfGameMenu@{eTypeOfGameMenu}!Object@{Object}}
+\subsubsection[{eTypeOfGameMenu}]{\setlength{\rightskip}{0pt plus 5cm}ETypeOfGameMenu {\bf Object::eTypeOfGameMenu}}}
+\label{class_object_aaabe391bdcbceb9a444921b1911cea5e}
+rozroznienie na gre/pauze \hypertarget{class_object_a3c65503a7c664fbbfcd35609ae98c331}{
+\index{Object@{Object}!oEnemy@{oEnemy}}
+\index{oEnemy@{oEnemy}!Object@{Object}}
+\subsubsection[{oEnemy}]{\setlength{\rightskip}{0pt plus 5cm}IAnimatedMeshSceneNode$\ast$ {\bf Object::oEnemy}}}
+\label{class_object_a3c65503a7c664fbbfcd35609ae98c331}
+siatka modelu wroga \hypertarget{class_object_ae37498ada787b94577580b7cfee28272}{
+\index{Object@{Object}!oGun@{oGun}}
+\index{oGun@{oGun}!Object@{Object}}
+\subsubsection[{oGun}]{\setlength{\rightskip}{0pt plus 5cm}IAnimatedMeshSceneNode$\ast$ {\bf Object::oGun}}}
+\label{class_object_ae37498ada787b94577580b7cfee28272}
+siatka modelu broni \hypertarget{class_object_a3b56533b0adcd6fda47335a0eee5bcaf}{
+\index{Object@{Object}!oHero@{oHero}}
+\index{oHero@{oHero}!Object@{Object}}
+\subsubsection[{oHero}]{\setlength{\rightskip}{0pt plus 5cm}IAnimatedMeshSceneNode$\ast$ {\bf Object::oHero}}}
+\label{class_object_a3b56533b0adcd6fda47335a0eee5bcaf}
+siatka modelu bohatera \hypertarget{class_object_aa1b266835c9b023b619983cd81cd3da7}{
+\index{Object@{Object}!planetIcon@{planetIcon}}
+\index{planetIcon@{planetIcon}!Object@{Object}}
+\subsubsection[{planetIcon}]{\setlength{\rightskip}{0pt plus 5cm}IGUIImage$\ast$ {\bf Object::planetIcon}}}
+\label{class_object_aa1b266835c9b023b619983cd81cd3da7}
+ikona ksiezyca w GUI gry \hypertarget{class_object_a19ca4a51a8dfdbdb4fc7b729f4ade618}{
+\index{Object@{Object}!sGui@{sGui}}
+\index{sGui@{sGui}!Object@{Object}}
+\subsubsection[{sGui}]{\setlength{\rightskip}{0pt plus 5cm}structGUI {\bf Object::sGui}}}
+\label{class_object_a19ca4a51a8dfdbdb4fc7b729f4ade618}
+skupienie wskaznikow obiektow GUI w menu glownym \hypertarget{class_object_a191559450f604c498012df73e84b94bc}{
+\index{Object@{Object}!terrain@{terrain}}
+\index{terrain@{terrain}!Object@{Object}}
+\subsubsection[{terrain}]{\setlength{\rightskip}{0pt plus 5cm}ISceneNode$\ast$ {\bf Object::terrain}}}
+\label{class_object_a191559450f604c498012df73e84b94bc}
+wskaznik na teren 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+object.h\item 
+object.cpp\end{DoxyCompactItemize}

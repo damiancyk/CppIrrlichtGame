@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="CProgressBar.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="27" topLine="0" />
+	</File>
+	<File name="CProgressBar.h" open="0" top="0" tabpos="17">
+		<Cursor position="163" topLine="0" />
+	</File>
+	<File name="CSampleSceneNode.h" open="0" top="0" tabpos="0">
+		<Cursor position="249" topLine="98" />
+	</File>
+	<File name="Cursor.h" open="0" top="0" tabpos="13">
+		<Cursor position="195" topLine="5" />
+	</File>
+	<File name="Mirror.h" open="0" top="0" tabpos="6">
+		<Cursor position="19567" topLine="434" />
+	</File>
+	<File name="action.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="8779" topLine="241" />
+	</File>
+	<File name="action.h" open="1" top="0" tabpos="9">
+		<Cursor position="2546" topLine="98" />
+	</File>
+	<File name="cIrrEventReceiver.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="12318" topLine="348" />
+	</File>
+	<File name="cIrrEventReceiver.h" open="0" top="0" tabpos="0">
+		<Cursor position="3275" topLine="156" />
+	</File>
+	<File name="compass.h" open="0" top="0" tabpos="0">
+		<Cursor position="2692" topLine="72" />
+	</File>
+	<File name="device.h" open="1" top="1" tabpos="16">
+		<Cursor position="3620" topLine="153" />
+	</File>
+	<File name="effect.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="12887" topLine="323" />
+	</File>
+	<File name="effect.h" open="1" top="0" tabpos="7">
+		<Cursor position="1301" topLine="102" />
+	</File>
+	<File name="enemy.cpp" open="1" top="0" tabpos="12">
+		<Cursor position="1905" topLine="26" />
+	</File>
+	<File name="enemy.h" open="1" top="0" tabpos="13">
+		<Cursor position="975" topLine="26" />
+	</File>
+	<File name="game.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1204" topLine="51" />
+	</File>
+	<File name="game.h" open="1" top="0" tabpos="3">
+		<Cursor position="168" topLine="178" />
+	</File>
+	<File name="hero.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="5796" topLine="124" />
+	</File>
+	<File name="hero.h" open="1" top="0" tabpos="11">
+		<Cursor position="2887" topLine="91" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="112" topLine="0" />
+	</File>
+	<File name="object.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="23349" topLine="304" />
+	</File>
+	<File name="object.h" open="1" top="0" tabpos="5">
+		<Cursor position="10052" topLine="292" />
+	</File>
+	<File name="sound.cpp" open="1" top="0" tabpos="14">
+		<Cursor position="268" topLine="0" />
+	</File>
+	<File name="sound.h" open="1" top="0" tabpos="15">
+		<Cursor position="3191" topLine="124" />
+	</File>
+</CodeBlocks_layout_file>

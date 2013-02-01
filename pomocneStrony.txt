@@ -1,0 +1,118 @@
+zobacz w akademiku:
+	http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=5700  ///muzyka
+	http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=38845 ///modele
+	http://acrisdesign.com/2009/11/free-textures-list-of-resources/ ///darmowe tekstury
+	http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=25454 ///darmowe dodatki do gier
+
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=32300&highlight=watch///environment shaders
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=39624&highlight=watch///blood and water effect
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=34232 ///rts-like minimap
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=38006 ///texture reloading
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=13812/// lustro ///nie dzia³a w wersji irrlichta 1.7.1
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=13521 ///kierunkowe swiatlo
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=40415 ///jakis shader
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=21057 ///pakiet shaderow //nie dziala w irrlicht 1.7.1
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=39340 ///shader krawedzi
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=39223 ///shader laser
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=27968&highlight=getxjointnode ///100 najlepszych
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=10502 ///pathfinder
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=34645 ///reloading device
+		///http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=37592 ///zaawansowana orientacja menu, nie dla inzynierow ;)
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=15181 ///mgla
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=38864 ///klonowanie modeli
+		http://lazyfoo.net/articles/article06/index.php ///stany gry
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=38811 ///stany gry
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=35539 ///stany gry
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=38411 ///struktura plikow
+http://www.szarp.com.pl/howto/howto/html/doxygen.html ///dokumentacja, zasady tworzenia
+
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=39066&highlight=level ///zmienianie leveli
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=36463&highlight=changing+resources+manager ///zmienianie leveli
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=39085&highlight=level+changing+clear ///zmienianie leveli
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=38917&highlight=level+detail ///LOD
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=38894 ///poruszanie bohaterem
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=35500 ///geometry shader
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=33947 ///12 hours clock
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=12238 ///obsluga poruszania postacia
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=18239 ///data
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=12251 ///rotating billboard
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=15074 ///progress bar
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=20144 ///skybox zmiana
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=36670 ///skybox zmiana
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=22681 ///auto driver chooser
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=21790 ///background on GUI
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=19005 ///kompas
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=36381&highlight=smgr+clear ///mapa
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=27812 ///LOD
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=25017 ///simple GUI
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=23707 ///Loading a IRR scene the apply collision to static objects...
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=31400 ///transparency nodes 
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=30672 ///celownik
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=27763 ///minimapa
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=16918 ///rain effect
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=24508&highlight=key+receiver ///cirr receiver
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=25972 ///implementacja cirr receivera
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?p=142077#142077 ///enable fog
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=19949 ///state manager
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=39092&highlight=changing+resources+manager ///dynamic text
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=38695&highlight=changing+resources+manager ///change cursor
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=38256&highlight=changing+resources+manager ///zachod slonca
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=37960&highlight=changing+resources+manager ///grass manager
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=34730&highlight=smgr+clear ///clearing z buffer, 2 worlds
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=26031. ///removing textures
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=33033&highlight=smgr+clear ///file save dialog
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=33547&highlight=smgr+clear ///logo on start
+http://translate.google.pl/translate?hl=pl&langpair=en|pl&u=http://gamedevfan.blogspot.com/2009/10/irrlicht-how-to-get-mouse-pointer.html ///kursor wskazuje obiekt
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=30631&highlight=change+resolution+window///xeffects
+http://www.irrgheist.com/games.htm ///gry irrlicht
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=25923&highlight=progress+bar ////ladowanie kolejnych scen
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=34669 ///shadow manager
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=31400///Change Nodes Transparency
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=31287///Save/Load userData to/from .irr Scenes
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=30607 ///working load and save settings routines
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=19005 ///Compass example
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=14186 ///screenshots
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=12251///(C++) Rotating 3d sprite (RotatingBillboard)
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=25888///Image and texture scaling
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=40278///tworzenie folderow
+		http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=38569 ///usuwanie nodów
+	
+	
+bibliografia:
+efekty:
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=33463 //anaglyph
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=18400 ///toon shader
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=13812&postdays=0&postorder=asc&start=30 ///lustro, odbicie odbicia
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=37735&postdays=0&postorder=asc&start=0 ///program do czcionek
+
+muzyka:
+
+obiekty:
+
+zagadnienia:
+http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=42129&highlight=thread  ///watki
+
+Ÿród³a:
+http://www.therecordist.com/pages/game_sfx.html ///samples-boom,doors,moto,sci-fi,thunders,windWaterFire
+http://polycount.com/models/quake2/ ///quake2models
+http://www.md2.sitters-electronics.nl/models.htm ///zestaw statycznych modeli i scen
+http://www.loopix-project.com/ 
+http://www.quaddicted.com/
+http://www.irrlicht3d.org/wiki/index.php?n=Main.MastEventReceiver //opbsluga I/O
+http://www.iconarchive.com/show/tulliana-2-icons-by-umut-pulat/joystick-icon.html ///ikonka joysticka
+http://www.egrafik.pl/kurs-c-plus-plus/8.3.php ///o wskaznikach, pomoglo mi w rozwiazaniu paru problemow z organizacja stuktur i nadawaniem wartosci oraz ze zrozumieniem sensu wskaznikow
+
+/*
+ // to write out a scene 
+   CProgressSceneUserDataWriter writer(device->getFileSystem()); 
+   writer.setProgressCb(testProgressCb, 0); 
+   smgr->saveScene("../../media/example2.irr", &writer); 
+
+   // to read back a scene 
+   CProgressSceneUserDataReader reader(device->getFileSystem()); 
+   reader.setProgressCb(testProgressCb, 0); 
+   smgr->loadScene("../../media/example2.irr", &reader); 
+   */
+   
+ o irrlichcie:
+ http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=37207&highlight=clear+memory ///plany na irrlichta 1.8

@@ -1,0 +1,395 @@
+# depslib dependency file v1.0
+1278694122 source:d:\bleruicz\main.cpp
+	"gameEngine.h"
+
+1278694164 d:\bleruicz\gameengine.h
+	<irrlicht.h>
+	<irrKlang.h>
+	<conio.h>
+	"../common/conio.h"
+
+1278694071 source:d:\bleruicz\gameengine.cpp
+	"gameEngine.h"
+
+1292785705 source:d:\irrlicht\main.cpp
+	"game.h"
+
+1280661747 d:\irrlicht\gameengine.h
+	"devices.h"
+	"CIrrEventReceiver.h"
+
+1278694405 d:\irrlicht\devices.h
+	<irrlicht.h>
+	<irrKlang.h>
+	<conio.h>
+	"../common/conio.h"
+
+1280661968 source:d:\irrlicht\gameengine.cpp
+	"gameEngine.h"
+
+1290903554 d:\irrlicht\cirreventreceiver.h
+	<Irrlicht.h>
+	<iostream>
+	<sstream>
+
+1290903554 source:d:\irrlicht\cirreventreceiver.cpp
+	<stdio.h>
+	"cIrrEventReceiver.h"
+
+1292786268 source:d:\irrlicht\effect.cpp
+	"effect.h"
+
+1292898985 source:d:\irrlicht\game.cpp
+	"game.h"
+
+1292786267 d:\irrlicht\game.h
+	"device.h"
+	"cIrrEventReceiver.h"
+	"object.h"
+	"hero.h"
+	"effect.h"
+	"sound.h"
+	"enemy.h"
+	"cursor.h"
+	"action.h"
+
+1292786228 source:d:\irrlicht\object.cpp
+	"object.h"
+
+1292786268 source:d:\irrlicht\sound.cpp
+	"sound.h"
+
+1292898308 d:\irrlicht\object.h
+	"device.h"
+	"CProgressBar.h"
+	"Mirror.h"
+	"effect.h"
+	"CSampleSceneNode.h"
+
+1292786268 source:d:\irrlicht\hero.cpp
+	"hero.h"
+
+1280697459 d:\irrlicht\game.hpp
+	"device.hpp"
+	"cIrrEventReceiver.hpp"
+	"object.hpp"
+
+1278694405 d:\irrlicht\device.hpp
+	<irrlicht.h>
+	<irrKlang.h>
+	<conio.h>
+	"../common/conio.h"
+
+1202165416 d:\irrlicht\cirreventreceiver.hpp
+	<Irrlicht.h>
+	<iostream>
+	<sstream>
+
+1280697465 d:\irrlicht\object.hpp
+	"device.hpp"
+
+1292786269 d:\irrlicht\device.h
+	<irrlicht.h>
+	<irrKlang.h>
+	<conio.h>
+	"../common/conio.h"
+
+1292898634 d:\irrlicht\hero.h
+	"device.h"
+
+1292898387 d:\irrlicht\effect.h
+	"device.h"
+	"mirror.h"
+	"compass.h"
+	<time.h>
+
+1292898634 d:\irrlicht\sound.h
+	"device.h"
+
+1280779335 source:d:\irrlicht\foe.cpp
+
+1280785385 d:\irrlicht\foe.h
+	"device.h"
+
+1292786268 source:d:\irrlicht\enemy.cpp
+	"enemy.h"
+
+1292898568 d:\irrlicht\enemy.h
+	"device.h"
+
+1281212356 source:d:\damiancyk\irrlicht\effect.cpp
+	"effect.h"
+
+1281212326 d:\damiancyk\irrlicht\effect.h
+	"device.h"
+
+1282600380 d:\damiancyk\irrlicht\device.h
+	<irrlicht.h>
+	<irrKlang.h>
+	<conio.h>
+	"../common/conio.h"
+
+1280786246 source:d:\damiancyk\irrlicht\enemy.cpp
+	"enemy.h"
+
+1280785790 d:\damiancyk\irrlicht\enemy.h
+	"device.h"
+
+1282767922 source:d:\damiancyk\irrlicht\game.cpp
+	"game.h"
+
+1281211948 d:\damiancyk\irrlicht\game.h
+	"device.h"
+	"cIrrEventReceiver.h"
+	"object.h"
+	"hero.h"
+	"effect.h"
+	"sound.h"
+	"enemy.h"
+
+1281135962 d:\damiancyk\irrlicht\cirreventreceiver.h
+	<Irrlicht.h>
+	<iostream>
+	<sstream>
+
+1282767041 d:\damiancyk\irrlicht\object.h
+	"device.h"
+
+1281135964 d:\damiancyk\irrlicht\hero.h
+	"device.h"
+
+1281136054 d:\damiancyk\irrlicht\sound.h
+	"device.h"
+
+1281135962 source:d:\damiancyk\irrlicht\hero.cpp
+	"hero.h"
+
+1281211948 source:d:\damiancyk\irrlicht\main.cpp
+	"game.h"
+
+1282604729 source:d:\damiancyk\irrlicht\object.cpp
+	"object.h"
+
+1281136054 source:d:\damiancyk\irrlicht\sound.cpp
+	"sound.h"
+
+1281135962 source:d:\damiancyk\irrlicht\cirreventreceiver.cpp
+	<stdio.h>
+	"cIrrEventReceiver.h"
+
+1281212356 source:d:\damiancyk\naoooka\irrlicht\effect.cpp
+	"effect.h"
+
+1281212326 d:\damiancyk\naoooka\irrlicht\effect.h
+	"device.h"
+
+1282600380 d:\damiancyk\naoooka\irrlicht\device.h
+	<irrlicht.h>
+	<irrKlang.h>
+	<conio.h>
+	"../common/conio.h"
+
+1280786246 source:d:\damiancyk\naoooka\irrlicht\enemy.cpp
+	"enemy.h"
+
+1280785790 d:\damiancyk\naoooka\irrlicht\enemy.h
+	"device.h"
+
+1281135962 source:d:\damiancyk\naoooka\irrlicht\hero.cpp
+	"hero.h"
+
+1281135964 d:\damiancyk\naoooka\irrlicht\hero.h
+	"device.h"
+
+1282777627 source:d:\damiancyk\naoooka\irrlicht\main.cpp
+	"game.h"
+
+1282836212 d:\damiancyk\naoooka\irrlicht\game.h
+	"device.h"
+	"cIrrEventReceiver.h"
+	"object.h"
+	"hero.h"
+	"effect.h"
+	"sound.h"
+	"enemy.h"
+
+1281135962 d:\damiancyk\naoooka\irrlicht\cirreventreceiver.h
+	<Irrlicht.h>
+	<iostream>
+	<sstream>
+
+1282772161 d:\damiancyk\naoooka\irrlicht\object.h
+	"device.h"
+
+1281136054 d:\damiancyk\naoooka\irrlicht\sound.h
+	"device.h"
+
+1282820120 source:d:\damiancyk\naoooka\irrlicht\object.cpp
+	"object.h"
+
+1281136054 source:d:\damiancyk\naoooka\irrlicht\sound.cpp
+	"sound.h"
+
+1281135962 source:d:\damiancyk\naoooka\irrlicht\cirreventreceiver.cpp
+	<stdio.h>
+	"cIrrEventReceiver.h"
+
+1282845126 source:d:\damiancyk\naoooka\irrlicht\game.cpp
+	"game.h"
+
+1281208756 source:d:\irrlichtt\irrlicht\effect.cpp
+	"effect.h"
+
+1281208726 d:\irrlichtt\irrlicht\effect.h
+	"device.h"
+
+1282596780 d:\irrlichtt\irrlicht\device.h
+	<irrlicht.h>
+	<irrKlang.h>
+	<conio.h>
+	"../common/conio.h"
+
+1280782646 source:d:\irrlichtt\irrlicht\enemy.cpp
+	"enemy.h"
+
+1280782190 d:\irrlichtt\irrlicht\enemy.h
+	"device.h"
+
+1282841526 source:d:\irrlichtt\irrlicht\game.cpp
+	"game.h"
+
+1282832612 d:\irrlichtt\irrlicht\game.h
+	"device.h"
+	"cIrrEventReceiver.h"
+	"object.h"
+	"hero.h"
+	"effect.h"
+	"sound.h"
+	"enemy.h"
+
+1281132362 d:\irrlichtt\irrlicht\cirreventreceiver.h
+	<Irrlicht.h>
+	<iostream>
+	<sstream>
+
+1282768560 d:\irrlichtt\irrlicht\object.h
+	"device.h"
+
+1281132364 d:\irrlichtt\irrlicht\hero.h
+	"device.h"
+
+1281132454 d:\irrlichtt\irrlicht\sound.h
+	"device.h"
+
+1281132362 source:d:\irrlichtt\irrlicht\hero.cpp
+	"hero.h"
+
+1282774026 source:d:\irrlichtt\irrlicht\main.cpp
+	"game.h"
+
+1282816520 source:d:\irrlichtt\irrlicht\object.cpp
+	"object.h"
+
+1281132454 source:d:\irrlichtt\irrlicht\sound.cpp
+	"sound.h"
+
+1281132362 source:d:\irrlichtt\irrlicht\cirreventreceiver.cpp
+	<stdio.h>
+	"cIrrEventReceiver.h"
+
+1288817024 d:\irrlicht\cprogresssceneuserdatareader.h
+
+1288997217 d:\irrlicht\cprogresssceneuserdatawriter.h
+
+1291394872 source:d:\irrlicht\cprogressbar.cpp
+	"CProgressBar.h"
+
+1292786269 d:\irrlicht\cprogressbar.h
+	<irrlicht.h>
+	"device.h"
+
+1289076970 d:\irrlicht\cursor.h
+	<irrlicht.h>
+
+1289082573 d:\irrlicht\minimap.h
+	<irrlicht.h>
+
+1289323854 d:\irrlicht\postprocesscolor.h
+	"irrlicht.h"
+
+1289475240 d:\irrlicht\mirror.h
+
+1289643748 d:\irrlicht\compass.h
+	<irrlicht.h>
+
+1292898126 source:d:\irrlicht\action.cpp
+	"action.h"
+
+1292786268 d:\irrlicht\action.h
+	"device.h"
+	"sound.h"
+	"hero.h"
+	"enemy.h"
+	"effect.h"
+
+1289857929 source:d:\irrlicht\cmanagedshadow.cpp
+	<irrlicht.h>
+	"CManagedShadow.h"
+	"CShadowManager.h"
+
+1289857814 d:\irrlicht\cmanagedshadow.h
+	<irrlicht.h>
+
+1289857860 d:\irrlicht\cshadowmanager.h
+	<irrlicht.h>
+
+1289857943 source:d:\irrlicht\cshadowmanager.cpp
+	<irrlicht.h>
+	"CShadowManager.h"
+	"CManagedShadow.h"
+
+1237093536 d:\irrlicht\include\xeffects\xeffects.h
+	"CShaderPre.h"
+	"CScreenQuad.h"
+	"EffectHandler.h"
+
+1219465838 d:\irrlicht\include\xeffects\cshaderpre.h
+	<irrlicht.h>
+
+1237109588 d:\irrlicht\include\xeffects\cscreenquad.h
+	<irrlicht.h>
+
+1258063876 d:\irrlicht\include\xeffects\effecthandler.h
+	<irrlicht.h>
+	"CShaderPre.h"
+	"CScreenQuad.h"
+
+1224145692 source:d:\irrlicht\include\xeffects\cshaderpre.cpp
+	"CShaderPre.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1258070896 source:d:\irrlicht\include\xeffects\effecthandler.cpp
+	"EffectHandler.h"
+	"EffectCB.h"
+	"EffectShaders.h"
+	<string>
+	<iostream>
+	<fstream>
+
+1258057716 d:\irrlicht\include\xeffects\effectcb.h
+	"EffectHandler.h"
+
+1258070108 d:\irrlicht\include\xeffects\effectshaders.h
+
+1290014588 d:\irrlicht\shaderlava.h
+
+1290018488 d:\irrlicht\postprocessinvert.h
+	"irrlicht.h"
+
+1290795668 d:\irrlicht\csamplescenenode.h
+
+1290891722 d:\irrlicht\myshadercallback.h
+	"device.h"
+

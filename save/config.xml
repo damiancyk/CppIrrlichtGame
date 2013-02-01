@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+<!--This is a config file for the Irrlicht Engine Mesh Viewer.-->
+<messageText caption="Info">
+Autor: Damian Pieta
+Gra zostala napisana w celu pokazania mozliwosci silnika graficznego Irrlicht.
+
+Jedynym celem gry jest zabicie wilkolaka.
+
+Poza tym posiadamy opcje konfiguracyjne,
+ktore pozwalaja nam wlaczac/wylaczac efekty i obserwowac
+obciazenie komputera (FPS, czas rysowania ramki).
+
+Aby w pelni zobaczyc obciazenie komputera,
+efekty sa testowane po przeladowaniu silnika 
+( sa z niego calkowicie usuwane badz dodawane)
+
+Tylko niektore efekty mozna testowac jako 'wydzielone' wywolujac je w petli wiele razy.
+Przykladem takiego efektu jest efekt lustra.
+Wiekszosc efektow jest po prostu wczytywana do silnika i slad po nich ginie : )
+
+
+</messageText>
+</config>
